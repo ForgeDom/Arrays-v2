@@ -29,8 +29,6 @@ int main() {
 		if (arr2[i] > 0) {
 			arr1[index++] = arr2[i];
 		}
-	}
-	for (int i = 0; i < size2; ++i) {
 		if (arr3[i] > 0) {
 			arr1[index++] = arr3[i];
 		}
@@ -39,8 +37,6 @@ int main() {
 		if (arr2[i] == 0) {
 			arr1[index++] = arr2[i];
 		}
-	}
-	for (int i = 0; i < size2; ++i) {
 		if (arr3[i] == 0) {
 			arr1[index++] = arr3[i];
 		}
@@ -49,8 +45,6 @@ int main() {
 		if (arr2[i] < 0) {
 			arr1[index++] = arr2[i];
 		}
-	}
-	for (int i = 0; i < size2; ++i) {
 		if (arr3[i] < 0) {
 			arr1[index++] = arr3[i];
 		}
